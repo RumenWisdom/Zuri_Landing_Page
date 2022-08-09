@@ -5,7 +5,7 @@
 }
     body{
         font-family: 'Averta Standard', sans-serif;
-        border-bottom: 2px solid rgb(81, 73, 73); ;
+        border-bottom: 2px solid rgb(81, 73, 73);
     }
 
 .section1{
@@ -82,7 +82,7 @@
     border: 1px solid rgb(231, 51, 43);
     color: rgb(255 255 255);
     font-weight: 400;
-}
+
 
 }
     
@@ -108,7 +108,7 @@
     margin-bottom: 70px;
     line-height: 40px;
     font-size: 24px;
-    color: #514949;;
+    color: #514949;
 }
 
 .training{
@@ -128,5 +128,18 @@
     line-height: 24px;
     color: #514949;
     font-size: 16px;
+
+}
+.last{
+    display: inline-block;
+}
+
+footer{
+text-align: center;
+font-family:'Averta Standard', sans-serif;
+font-size: 16px;
+color: #514949;
+padding-bottom: 97px;
+}
 
 }
