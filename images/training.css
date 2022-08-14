@@ -10,8 +10,15 @@ body {
   margin: auto;
   font-style: normal;
 }
-.menuwrapper{
+.positionfix{
     position: fixed;
+    width: 100%;
+   max-width: 100%;
+    background-color: rgb(255, 253, 245);
+   justify-content: center;
+   display: flex;
+   margin: auto;
+   
 }
 
 .menu {
@@ -20,7 +27,7 @@ body {
   align-items: center;
   background-color: rgb(255, 253, 245);
   width: 100%;
-  margin: auto;
+ margin-left: -250px;
   justify-content: space-between;
   margin-top: 25px;
  
@@ -61,7 +68,7 @@ width: 308px;
 #enrol {
   background-color: rgb(231, 51, 43);
   letter-spacing: 0.51426px;
-  padding: 10px 32px;
+  padding: 10.5px 32px;
   position: static;
   border-top-right-radius: 71px;
   border-bottom-right-radius: 71px;
@@ -74,7 +81,7 @@ width: 308px;
     width: 100%;
     margin:auto;
     max-width: 1440px;
-    padding-top: 200px;
+    padding-top: 140px;
     display: flex;
 }
 .male1{
@@ -123,5 +130,17 @@ width: 308px;
 
 .enrollink{
     text-align: center;
+}
+.buttonone{
+    background-color: rgb(231, 51, 43);
+  letter-spacing: 0.51426px;
+  padding: 10.5px 32px;
+  position: static;
+  border-radius: 71px;
+  color: #fff;
+  background-attachment: scroll;
+  border: none;
+  font-size: 18px;
+  
 }
 
