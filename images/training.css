@@ -1,32 +1,38 @@
 * {
   margin: 0;
   padding: 0;
-  max-width: 1440px;
+ 
 }
+
 body {
   background-color: rgb(255, 253, 245);
+  width: 90%;
+  margin: auto;
+  font-style: normal;
 }
 
 .menu {
   max-width: 1440px;
   display: flex;
-  padding: 0 55px;
   align-items: center;
-  background-color: ;
-  position: fixed;
-  margin-top: 12px;
   background-color: rgb(255, 253, 245);
+  width: 100%;
   margin: auto;
+  justify-content: space-between;
+  margin-top: 25px;
 }
 .logo {
-  margin-right: 400px;
+width: 308px;
 }
 .menubuttons {
-  max-width: 1440px;
   justify-content: space-between;
   text-align: center;
   font-family: "Graphik", sans-serif;
   font-size: 18px;
+  margin: auto;
+}
+.menuwrapper{
+    position: relative;
 }
 .menubuttons > a {
   font-size: 18px;
@@ -40,7 +46,9 @@ body {
   background-color: rgb(231, 51, 43);
   border-radius: 100px;
   padding: 10px;
-  margin-left: -240px;
+  margin-left: 525px;
+  position: absolute;
+  margin-top: -47px;
 }
 #faq {
   margin-right: 100px;
@@ -54,4 +62,48 @@ body {
   border-top-right-radius: 71px;
   border-bottom-right-radius: 71px;
   color: #fff;
+  background-attachment: scroll;
+  margin-right: 0;
 }
+
+.falsebody{
+    width: 100%;
+    margin:auto;
+    max-width: 1440px;
+    padding-top: 200px;
+    display: flex;
+}
+.male1{
+    margin-right: 0;
+}
+.middlepara1{
+    color: rgb(231, 51, 43);
+    font-size: 18px;
+    font-family: "Graphik", sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+.middlepara2{
+    padding-top: 10px;
+    text-align: center;
+    color: rgb(27, 26, 32);
+    font-family: "Graphik", sans-serif;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 60.5px;
+    font-style: normal;
+
+}
+.middlepara3{
+    font-size: 18px;
+    color: rgb(27, 26, 32);
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    padding-bottom: 40px;
+    font-family: "Graphik", sans-serif;
+    display: ;
+    width: 490px;
+    font-style: normal;
+}
+
