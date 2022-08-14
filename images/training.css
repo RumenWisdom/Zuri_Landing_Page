@@ -13,7 +13,7 @@ body {
 .positionfix{
     position: fixed;
     width: 100%;
-   max-width: 100%;
+   max-width: 2030px;
     background-color: rgb(255, 253, 245);
    justify-content: center;
    display: flex;
@@ -26,8 +26,9 @@ body {
   display: flex;
   align-items: center;
   background-color: rgb(255, 253, 245);
-  width: 100%;
- margin-left: -170px;
+  width: 90%;
+ margin-left: -210px;
+ margin-right: -110px;
   justify-content: space-between;
   margin-top: 25px;
  
@@ -81,7 +82,7 @@ width: 308px;
     width: 100%;
     margin:auto;
     max-width: 1440px;
-    padding-top: 140px;
+    padding-top: 200px;
     display: flex;
 }
 .male1{
@@ -142,5 +143,11 @@ width: 308px;
   border: none;
   font-size: 18px;
   
+}
+.spiralwire{
+  margin-top: -50px;
+  width: 100px;
+  justify-content: center;
+  margin-left: 250px;
 }
 
