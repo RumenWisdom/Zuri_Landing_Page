@@ -10,6 +10,9 @@ body {
   margin: auto;
   font-style: normal;
 }
+.menuwrapper{
+    position: fixed;
+}
 
 .menu {
   max-width: 1440px;
@@ -20,7 +23,7 @@ body {
   margin: auto;
   justify-content: space-between;
   margin-top: 25px;
-  position: fixed;
+ 
 }
 .logo {
 width: 308px;
@@ -118,6 +121,7 @@ width: 308px;
     
 }
 
-.midbutton{
+.enrollink{
+    text-align: center;
 }
 
