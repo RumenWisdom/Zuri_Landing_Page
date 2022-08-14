@@ -405,6 +405,7 @@ a{   text-decoration: none;
   
 
  @media screen and (max-width:991px) {
+<<<<<<< Updated upstream
     *{
         margin: 0;
         padding: 0;}
@@ -413,11 +414,25 @@ a{   text-decoration: none;
     footer,.last, .copyright, .training
   
 
+=======
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body, .section1, .under, 
+    footer, .copyright, .training
+>>>>>>> Stashed changes
      {
+         
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+<<<<<<< Updated upstream
    
+=======
+    width: 100%;
+>>>>>>> Stashed changes
     margin: 30px 10px 10px 10px;
     justify-content: center;
 
