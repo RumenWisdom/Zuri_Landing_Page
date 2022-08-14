@@ -71,7 +71,7 @@ width: 308px;
     width: 100%;
     margin:auto;
     max-width: 1440px;
-    padding-top: 130px;
+    padding-top: 200px;
     display: flex;
 }
 .male1{
@@ -93,7 +93,15 @@ width: 308px;
     font-weight: 600;
     line-height: 60.5px;
     font-style: normal;
+    margin-bottom: 5px;
 
+}
+
+.lineimage{
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: right;
+   
 }
 .middlepara3{
     font-size: 18px;
@@ -104,8 +112,12 @@ width: 308px;
     padding-bottom: 40px;
     font-family: "Graphik", sans-serif;
     display:block ;
-    width: 490px;
+    width: 430px;
     font-style: normal;
+    margin: auto;
     
+}
+
+.midbutton{
 }
 
