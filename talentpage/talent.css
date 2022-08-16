@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+   
+  }
+  
+  body {
+   
+    margin: auto;
+    font-style: normal; 
+  }
+  .positionfix{
+      position: fixed;
+      width: 100%;
+     max-width: 2780px;
+      background-color: rgb(255, 255, 255);
+     justify-content: center;
+     display: flex;
+     margin: auto;
+     align-items: center;
+  }
+  
+  .menu {
+    max-width: 1440px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    width: 88%;
+   /* margin-left: -250px;
+   margin-right: -180px; */
+    justify-content: space-between;
+    height: 40px;
+    margin-top: 12px;
+  }
+  .logo {
+  width: 308px;
+  margin-left: 0px;
+  }
+  .menubuttons {
+    justify-content: space-between;
+    text-align: center;
+    font-family: "Graphik", sans-serif;
+    font-size: 18px;
+    margin: auto;
+    background-color:rgb(255, 255, 255) ;
+    }
+
+    .menubuttons>a {
+      margin-top: 16px;
+      font-size: 16px;
+      margin-right: 48px;
+      padding: 6px 8px;
+      color: #585757;
+      font-weight: 400;
+      text-decoration: none;
+      font-family:  "Graphik", sans-serif;
+    }
+ 
+  #faq{
+    align-items: center;
+    margin: 0 15px 0 0;
+    padding: 11px 35px;
+    justify-content: center;
+    background-color: rgb(231, 51, 43);
+    border: none;
+    font-size: 16px;
+    font-family:  "Graphik", sans-serif;
+    border-bottom-right-radius: 8px;
+    
+  }
+
+
+  #faq>a {color: rgb(255, 255, 255);
+    text-decoration: none;
+
+  }
+.firstbody{
+  display: flex;
+  justify-content: space-between;
+}
+
+  
+  
