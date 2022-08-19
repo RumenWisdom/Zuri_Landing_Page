@@ -299,7 +299,30 @@ align-items: center;
   justify-content: center;
 }
 
-.sec3buttons{
-
+.sec32{
+  display: inline-block;
+  flex-direction: row;
+  align-items: center;
+  padding: 24px 24px 0 0;
+   
 }
 
+.sec32>p{
+  background-color: #ffff;
+  background-size: auto;
+  background-origin: padding-box;
+  border-radius: 8px;
+  box-shadow: 0 8px 30px hsla(0,0%,48%,.16);
+  color: #787878;
+  font-family: "Graphik", sans-serif ;
+  font-style: normal;
+  font-weight: 400;
+  padding: 5px;
+  text-align: center;
+  font-size: 18px;
+align-items: center;
+  width: 207px;
+  height: 43px;
+  display: flex;
+  justify-content: center;
+}
