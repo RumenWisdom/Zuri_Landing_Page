@@ -11,7 +11,7 @@
   }
   .positionfix{
     width: 100%;
-   padding-bottom: 40px;
+   padding-bottom: 30px;
      max-width: 2780px;
       background-color: rgb(255, 255, 255);
      justify-content: center;
@@ -37,8 +37,8 @@
     
   }
   .logo {
-  width: 308px;
-  margin-left: 0px;
+  width: 138px;
+  margin-left: -33px;
   }
   .menubuttons {
     justify-content: space-between;
@@ -47,7 +47,7 @@
     font-size: 18px;
     margin: auto;
     background-color:rgb(255, 255, 255) ;
-    position: relative;
+   
     }
 
     .menubuttons>a {
@@ -71,7 +71,7 @@
     font-size: 16px;
     font-family:  "Graphik", sans-serif;
     border-bottom-right-radius: 8px;
-    position: stat;
+   
     
   }
 
@@ -80,11 +80,15 @@
     text-decoration: none;
 
   }
+
+
+  
 .firstbody{
   display: flex;
   justify-content: space-between;
   max-width: 1440px;
-  margin: auto;
+  margin-left: 99.90px;
+  max-width: 1440px;
   align-items: center;
   padding-top: 200px;
   
@@ -168,6 +172,7 @@ line-height: 49px;
   padding-top: 90px;
   background-image: url(bgsection2.063bd869082548bafa74.png);
   background-size: cover;
+  object-position: center;
   
 }
 
@@ -175,8 +180,8 @@ line-height: 49px;
 .impacted{
   display: flex;
   padding: 90px 0 142px;
-  margin: auto;
-  width: 1440px;
+  margin-left: 99.90px;
+  max-width: 1440px;
   margin-top: -24px;
   
 
@@ -234,10 +239,67 @@ width: 552px;
     border-radius:8px ;
     width: 45px;
     font: normal;
-
-
-
-
-
-
   }
+.section3{
+margin-left: 99.90px;
+max-width: 1440px;
+padding-bottom: 100px;
+padding-top: 100px;
+
+}
+
+.sec3par1{
+  color: #161617;
+    font-family: "Graphik", sans-serif ;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 49px;
+    width: 457px;
+    padding-bottom: 35px;
+}
+.sec3par2{
+  padding-top: 55px;
+  color: #161617;
+  font-family: "Graphik", sans-serif ;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 49px;
+ 
+  padding-bottom: 35px;
+}
+
+.sec3{
+display: inline-block;
+flex-direction: row;
+align-items: center;
+padding: 24px 24px 0 0;
+ 
+  
+}
+
+.sec3>p{
+  background-color: #ffff;
+  background-size: auto;
+  background-origin: padding-box;
+  border-radius: 8px;
+  box-shadow: 0 8px 30px hsla(0,0%,48%,.16);
+  color: #787878;
+  font-family: "Graphik", sans-serif ;
+  font-style: normal;
+  font-weight: 400;
+  padding: 5px;
+  text-align: center;
+  font-size: 18px;
+align-items: center;
+  width: 207px;
+  height: 43px;
+  display: flex;
+  justify-content: center;
+}
+
+.sec3buttons{
+
+}
+
