@@ -14,6 +14,9 @@
     margin: auto;
     font-style: normal; 
   }
+  .menufix{
+    background-color: rgb(255, 255, 255);
+  }
   .positionfix{
     width: 100%;
    padding-bottom: 30px;
@@ -21,7 +24,6 @@
       background-color: rgb(255, 255, 255);
      justify-content: left;
      display: flex;
-     margin: 0 103px;
      align-items: center;
      position: fixed;
     
@@ -34,11 +36,12 @@
     align-items: center;
     background-color: rgb(255, 255, 255);
     width: 88%;
+    margin: 12px 103px;
    /* margin-left: -250px;
    margin-right: -180px; */
     justify-content: space-between;
     height: 40px;
-    margin-top: 12px;
+   
     
   }
   .logo {
@@ -50,7 +53,7 @@
     text-align: center;
     font-family: "Graphik", sans-serif;
     font-size: 18px;
-    margin-right: 60px;
+    
     background-color:rgb(255, 255, 255) ;
    
     }
@@ -378,6 +381,11 @@ padding-top: 80px;
 display: flex;
 }
 
+.section4three{
+  display: flex;
+  justify-content: center;
+}
+
 .peop{
   border-bottom-right-radius: 16px;
   background-color: #ffff;
@@ -389,17 +397,40 @@ display: flex;
   justify-content: center;
   padding: 45px 10px;
   width: 359px;
-  margin-right: 10px;
-  display: inline-block;
+  margin-right: 17px;
+  font-family: "graphik", sans-serif;
 }
 
-.peop>p{
+.peop>p, .write>p{
   line-height: 22px;
   padding-top: 15px;
   width: 305px;
   color: rgb(120, 120, 120);
   font-size: 17px;
   font-weight: 400;
+  text-align: center;
+}
+
+.write{
+  border-bottom-right-radius: 16px;
+  background-color: #ffff;
+  color: rgb(120, 120, 120);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 185px;
+  padding: 45px 10px;
+  width: 359px;
+  margin-right: 17px;
+  margin-top: 35px;
+  font-family: "graphik", sans-serif;
+  
+}
+
+.section4buttons{
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
 }
 
 }
