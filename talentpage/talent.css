@@ -1,3 +1,8 @@
+@media screen and (min-width:1200px) {
+  
+
+
+
 * {
     margin: 0;
     padding: 0;
@@ -12,11 +17,11 @@
   .positionfix{
     width: 100%;
    padding-bottom: 30px;
-     max-width: 2780px;
+     max-width: 1440px;
       background-color: rgb(255, 255, 255);
-     justify-content: center;
+     justify-content: left;
      display: flex;
-     margin: auto;
+     margin: 0 103px;
      align-items: center;
      position: fixed;
     
@@ -24,7 +29,7 @@
   
   .menu {
     
-    max-width: 1440px;
+  max-width: 1440px;
     display: flex;
     align-items: center;
     background-color: rgb(255, 255, 255);
@@ -45,7 +50,7 @@
     text-align: center;
     font-family: "Graphik", sans-serif;
     font-size: 18px;
-    margin: auto;
+    margin-right: 60px;
     background-color:rgb(255, 255, 255) ;
    
     }
@@ -91,6 +96,7 @@
   max-width: 1440px;
   align-items: center;
   padding-top: 200px;
+  margin: 0 103px;
   
 }
 
@@ -168,6 +174,7 @@ line-height: 49px;
 
 .section2{
   margin-top: 100px;
+  width: 100%;
   padding-bottom: 142px;
   padding-top: 90px;
   background-image: url(bgsection2.063bd869082548bafa74.png);
@@ -191,6 +198,7 @@ line-height: 49px;
   display: flex;
 flex-direction: column;
 margin-top: 10%;
+
   
 }
 
@@ -200,46 +208,51 @@ margin-top: 10%;
   color: rgb(22 22 23);
   font-family: "Graphik", sans-serif ;
   font-size: 40px;
-  margin-right: 280px;
-  width: 708px;
+
+ 
 }
 
 .impacted2{
-margin-right:440px;
+
 color: #161617;
 font-family: "Graphik", sans-serif ;
 padding-top: 10px;
 font-weight: bold;
 font-size: 19px;
 line-height: 22px;
-width: 552px;
+
 
 }
   .impacted3{
-    margin-right:430px;
+    
     font-family: "Graphik", sans-serif ;
     font-weight: 400;
     line-height: 22px;
     padding-top: 10px;
-    width: 552px;
+   
     font-size: 19px;
     color: #787878;
   }
   
   .flags{
     padding-top: 19px;
-    margin-right: 440px;
+    
     
   }
 
   .flagger{
-    margin-right: 16px;
+    
     background-color: #ffff;
     padding: 7px;
     border-radius:8px ;
     width: 45px;
     font: normal;
   }
+.image{
+  width:454px;
+  padding: 24px 0 0 24px;
+}
+
 .section3{
 margin-left: 99.90px;
 max-width: 1440px;
@@ -325,4 +338,6 @@ align-items: center;
   height: 43px;
   display: flex;
   justify-content: center;
+}
+
 }
