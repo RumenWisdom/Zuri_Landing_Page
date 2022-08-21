@@ -255,8 +255,10 @@ line-height: 22px;
     background-color: #ffff;
     padding: 7px;
     border-radius:8px ;
-    width: 45px;
+    height: 42px;
     font: normal;
+    margin-right: 16px;
+    width: 42px;
   }
 .image{
   width:50%;
