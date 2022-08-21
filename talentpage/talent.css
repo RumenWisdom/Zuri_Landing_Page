@@ -186,7 +186,6 @@ line-height: 49px;
   
 }
 
-
 .impacted{
   display: flex;
   padding: 90px 0 142px;
@@ -297,7 +296,6 @@ flex-direction: row;
 align-items: center;
 padding: 24px 24px 0 0;
  
-  
 }
 
 .sec3>p{
@@ -320,11 +318,21 @@ align-items: center;
   justify-content: center;
 }
 
+.linee {
+  width: 138px;
+}
+
+.lineimg{
+  width: 138px;
+  display: inline;
+  z-index: -2;
+}
+
 .sec32{
   display: inline-block;
   flex-direction: row;
   align-items: center;
-  padding: 24px 24px 0 0;
+  padding: 16px 16px 0 0;
    
 }
 
@@ -341,12 +349,13 @@ align-items: center;
   padding: 5px;
   text-align: center;
   font-size: 18px;
-align-items: center;
-  width: 207px;
+  align-items: center;
+width: 160px;
   height: 43px;
   display: flex;
   justify-content: center;
 }
+
 
 .section4{
 
@@ -358,10 +367,6 @@ padding-bottom: 80px;
 .section4one{
 margin: 0 103px;
 max-width: 1440px;
-
-  
-
-
 }
 
 .whyhire{
@@ -432,5 +437,42 @@ display: flex;
   justify-content: center;
   margin-top: 70px;
 }
+.footer1{
+background-color: rgb(22, 22, 23);
+padding: 80px 0 0 0;
+display: flex;
+justify-content: center;
+max-width: 1440px;
+}
+
+.footer2{
+  color: #ffff;
+  max-width: 1440px;
+  width: 90%;
+}
+.logosocials{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.socials>img{
+  padding-right: 15px;
+
+  height:31px;
+}
+.copyright{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  align-items: center;
+}
+.copyright p{
+  font-family: "graphik", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  margin-top: 16px;
+}
+
 
 }
